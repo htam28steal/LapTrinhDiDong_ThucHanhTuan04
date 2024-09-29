@@ -7,7 +7,6 @@ import {
   Image,
   TextInput,
 } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
 import Svg, { Defs, RadialGradient, Stop, Rect } from 'react-native-svg';
 
 export default function Screen2_c() {
@@ -30,8 +29,7 @@ export default function Screen2_c() {
             fy="50%">
             <Stop offset="30%" stopColor="#3B3B98" stopOpacity="1" />{' '}
             {/* Màu tại tâm */}
-            <Stop offset="90%" stopColor="#fff" stopOpacity="1" /> // Màu ở rìa
-            */}
+            <Stop offset="90%" stopColor="#fff" stopOpacity="1" /> 
           </RadialGradient>
         </Defs>
         {/* Vẽ hình chữ nhật và áp dụng gradient */}
@@ -46,7 +44,7 @@ export default function Screen2_c() {
         </View>
         <View style={styles.control}>
           <View style={styles.contentInControl}>
-            <View style={[styles.FrameContent, { width: 150 }]}>
+            <View style={[styles.frameContent, { width: 150 }]}>
               <Text style={[styles.txtTile, { fontSize: 16 }]}>
                 Password length
               </Text>
@@ -185,7 +183,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 20,
   },
-  FrameContent: {
+  frameContent: {
     width: 200,
   },
   frameButton: {
