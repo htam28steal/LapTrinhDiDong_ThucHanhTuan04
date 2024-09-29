@@ -64,7 +64,7 @@ export default function Screen2_c() {
             />
           </View>
           <View style={styles.contentInControl}>
-            <View style={styles.FrameContent}>
+            <View style={styles.frameContent}>
               <Text style={[styles.txtTile, { fontSize: 16 }]}>
                 Include lower case letters
               </Text>
@@ -76,7 +76,7 @@ export default function Screen2_c() {
               ]}></TextInput>
           </View>
           <View style={styles.contentInControl}>
-            <View style={styles.FrameContent}>
+            <View style={styles.frameContent}>
               <Text style={[styles.txtTile, { fontSize: 16 }]}>
                 Include upcase letters
               </Text>
@@ -88,7 +88,7 @@ export default function Screen2_c() {
               ]}></TextInput>
           </View>
           <View style={styles.contentInControl}>
-            <View style={styles.FrameContent}>
+            <View style={styles.frameContent}>
               <Text style={[styles.txtTile, { fontSize: 16 }]}>
                 Include number
               </Text>
@@ -101,7 +101,7 @@ export default function Screen2_c() {
               ]}></TextInput>
           </View>
           <View style={styles.contentInControl}>
-            <View style={styles.FrameContent}>
+            <View style={styles.frameContent}>
               <Text style={[styles.txtTile, { fontSize: 16 }]}>
                 Include special symbol
               </Text>
